@@ -1,0 +1,41 @@
+.header {
+    padding: 20px 0;
+    backdrop-filter: blur(10px);
+    /* background-color: rgba(29, 47, 48, 0.3); */
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu{
+}
+
+.header__links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 59px;
+}
+
+
+.logo {
+}
+.menu-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+.menu-item {
+}
+.menu-link {
+    color: inherit;
+    font-family: var(--font-family);
+}
+.search-link {
+}
+.enter-link {
+}

@@ -1,0 +1,55 @@
+@import './reset.css';
+
+/* Fonts */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+@import url(https://fonts.googleapis.com/css?family=Cormorant:300,regular,500,600,700,300italic,italic,500italic,600italic,700italic);
+
+:root {
+    /* Fonts */
+    --font-family: "Open Sans", sans-serif;
+    --second-family: "Cormorant", sans-serif;
+
+    /* Colors */
+	--white: #fff;
+	--grey: #899d9d;
+	--background: #1d2f30;
+	--background-shade: #0b1919;
+	--green-text: #506829;
+	--primary-green: #bae249;
+	--green-activeclick: #688b05;
+	--green-focus: #83a440;
+	--green-hover: #91ac46;
+	--red: #e24949;
+}
+
+
+body {
+	background-color: var(--background);
+	color: var(--white);
+}
+
+h1 {
+	font-family: var(--second-family);
+	font-size: 60px;
+    font-weight: 700;
+}
+
+h2 {
+	font-family: var(--second-family);
+    font-style: italic;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+h3 {
+	font-family: var(--second-family);
+	font-size: 24px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.container {
+	max-width: 1150px;
+	padding: 0 20px;
+	margin: 0 auto;
+}
