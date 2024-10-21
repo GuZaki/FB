@@ -1,0 +1,40 @@
+/* promo */
+
+.promo__inner {
+    padding-top: 82px;
+    padding-bottom: 84px;
+}
+
+.promo__content {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    max-width: 635px;
+}
+
+.promo__title {
+    font-family: var(--second-family);
+}
+
+.promo__text {
+
+}
+
+.promo__link {
+    color: var(--primary-green);
+}
+
+.promo__link span {
+    display: block;
+    padding-top: 2px;
+}
+.title {
+
+}
+
+.link {
+    display: flex;
+    gap: 8px;
+    font-weight: 700;
+    font-size: 16px;
+}

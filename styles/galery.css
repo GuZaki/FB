@@ -1,0 +1,43 @@
+/*galery*/
+
+.galery__slider  {
+
+}
+
+.hidden {
+    display: none;
+}
+
+.slider__main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.slider__bottom {
+
+}
+
+.card {
+
+}
+
+.card__img {
+    
+}
+
+.card__desc {
+
+}
+
+.card__title {
+    
+}
+
+.card__text {
+    
+}
+
+.card__link {
+		
+}

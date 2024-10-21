@@ -1,0 +1,26 @@
+/*ui-kit*/
+
+.menu-link:hover {
+    transition: all 0.2s ease-in;
+    color: var(--primary-green);
+}
+
+.search-link:hover svg path {
+    transition: all 0.2s ease-in;
+    stroke: var(--green-hover);
+}
+
+.enter-link:hover svg path {
+    transition: all 0.2s ease-in;
+    stroke: var(--green-hover);
+}
+
+.promo__link:hover {
+    transition: all 0.2s ease-in;
+    color: var(--green-hover);
+}
+
+.promo__link:hover svg path {
+    transition: all 0.2s ease-in;
+    fill: var(--green-hover);
+}
